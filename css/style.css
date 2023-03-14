@@ -1,0 +1,129 @@
+body {
+    font-family: "Montserrat";
+    background-color: #3C6255; 
+    color: #EAE7B1;
+}
+
+header {
+    padding-bottom: 10%;
+    margin: 0;
+    height: 6rem;
+}
+
+.container-fluid {
+    padding: 2%;
+    margin: 1%;
+}
+h1 {
+    font-family: "Montserrat-Black"; 
+    font-size: 3.5rem; line-height: 1.5; 
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Montserrat-Black"; 
+    font-size: 3rem; 
+    line-height: 1.5; 
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+div.container {
+    height: 5rem;
+    margin: 1%;
+   
+    
+}
+a.navbar-brand {
+    height: 5rem;
+    margin: 0;
+    padding: 0;
+}
+.nav-item {
+    padding: 0 18px;
+        
+}
+
+nav {
+    padding: 2%;
+}
+.logo {
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+}
+.prof-pic {
+    height: 28rem;
+    padding: 4rem 2rem 2rem 0;
+}
+.btn {
+    background-color: #82CD47;
+
+}
+a.nav-link {
+    color:#82CD47;
+    font-weight: 700;    
+}
+
+div.row {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 0;
+    
+}
+
+div h1 {
+    padding-top: 15%;
+   
+}
+
+div p {
+    padding-bottom: 5%;
+}
+
+div button {
+    padding: 0;
+}
+
+nav.navbar {
+    height: 5%;
+}
+
+ul.social-media {
+    list-style: none;
+    padding: 2rem 0;
+    height: 4rem;
+    padding-top: 10%;
+}
+
+li.sc-link {
+    display: inline;
+    padding: 2%;
+    height: 4rem;
+}
+
+div h3 {
+    padding-top: 10%;
+}
+
+footer {
+    text-align: center;
+    margin: 0;
+    background-color: #82CD47;
+    height: 5rem;
+}
+
+ul.social-media-foot {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li.sc-link-foot {
+    display: inline;
+    padding: 0.25%;
+    margin: 0;
+}
