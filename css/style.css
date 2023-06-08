@@ -11,8 +11,10 @@ header {
 }
 
 .container-fluid {
-    padding: 2%;
-    margin: 1%;
+    padding: 0.5%;
+    margin: 0;
+    position: fixed;
+    
 }
 h1 {
     font-family: "Montserrat-Black"; 
@@ -30,16 +32,17 @@ h2 {
 h3 {
     font-weight: bolder;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 div.container {
-    height: 5rem;
+    height: 4rem;
     margin: 1%;
    
     
 }
 a.navbar-brand {
-    height: 5rem;
+    height: 4rem;
     margin: 0;
     padding: 0;
 }
@@ -50,29 +53,31 @@ a.navbar-brand {
 
 nav {
     padding: 2%;
+    background-color: #82CD47;
 }
 .logo {
-    height: 4.5rem;
-    width: 4.5rem;
+    height: 4rem;
+    width: 4rem;
     border-radius: 50%;
 }
 .prof-pic {
-    height: 28rem;
-    padding: 4rem 2rem 2rem 0;
+    height: 30rem;
+    padding: 2rem;
 }
 .btn {
     background-color: #82CD47;
 
 }
 a.nav-link {
-    color:#82CD47;
+    color:#EAE7B1;
     font-weight: 700;    
 }
 
 div.row {
     padding-top: 5%;
-    padding-left: 5%;
     padding-right: 0;
+    text-align: center;
+    width: 100%;
     
 }
 
@@ -90,20 +95,32 @@ div button {
 }
 
 nav.navbar {
-    height: 5%;
+    height: 4.5rem;
+    padding: 0;
 }
 
 ul.social-media {
     list-style: none;
-    padding: 2rem 0;
+    padding: 0.5rem 0;
     height: 4rem;
     padding-top: 10%;
 }
 
 li.sc-link {
     display: inline;
-    padding: 2%;
+    padding: 1%;
     height: 4rem;
+    text-decoration: none;
+}
+
+.sc-link a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.sc-link-foot a {
+    color: inherit;
+    text-decoration: none;
 }
 
 div h3 {
@@ -112,9 +129,10 @@ div h3 {
 
 footer {
     text-align: center;
-    margin: 0;
+    margin-top: 10%;
     background-color: #82CD47;
     height: 5rem;
+    width: 100%;
 }
 
 ul.social-media-foot {
@@ -127,3 +145,34 @@ li.sc-link-foot {
     padding: 0.25%;
     margin: 0;
 }
+
+.demo-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F44336;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .demo-link:hover {
+    background-color: #E53935;
+  }
+
+/* Add animation class to the title */
+.title h1 {
+    animation: animate__fadeInDown 1s ease-out;
+  }
+  
+  /* Add animation class to the social media icons */
+  .social-media li {
+    animation: animate__fadeIn 1s ease-out;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+  }
+  #projects {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin: auto;
+  }
+  
